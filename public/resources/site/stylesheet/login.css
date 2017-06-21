@@ -1,0 +1,31 @@
+.boone-content{
+	max-width: 372px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+.boone-login {
+	margin-top: 4%;
+}
+.boone-login img.logo-image {
+    height: 92px;
+    display: block;
+    margin: 34px auto;
+}
+.boone-sms {
+	border-left: none;
+}
+#subLoginForUser
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 18px;
+}
+.smsNumber {
+	width: 100%;
+}
+.boone-sms[disabled]{
+	background: #8DCE8D;
+	color: #049E04;
+	border-color: #8DCE8D;
+}

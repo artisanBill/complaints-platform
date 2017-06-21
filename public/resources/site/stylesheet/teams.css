@@ -1,0 +1,394 @@
+.navbar{
+	margin-bottom: 0;
+}
+.boone-footer {
+	margin-top: 0;
+}
+/*Image Block
+------------------------------------*/
+.image-block {
+	overflow: hidden;
+	min-height: 200px;
+	position: relative;
+}
+.image-block {
+	background: url(/resources/images/itousu/teams/teambg.jpg) no-repeat;
+	background-size: cover;
+  background-position: center center;
+}
+.image-block .company-description {
+	max-width: 592px;
+	margin: 40px auto;
+	padding: 35px 25px;	
+	position: relative;
+	text-align: center;
+	background: rgba(255,255,255,0.9);
+}
+
+.image-block .company-description h2 {
+	margin-bottom: 20px;
+}
+
+.image-block .company-description p {
+	text-align: left;
+	text-indent:2em;
+}
+
+.image-block .benefits {
+	margin-bottom: 20px;
+}
+
+.image-block .benefits li {
+	margin: 0 7px 10px 0;
+}
+ 
+.image-block .benefits li i {
+	color: #24CE7B;
+	min-width: 32px;
+	font-size: 15px;
+	padding: 7px 6px;
+	margin-right: 10px;
+	text-align: center;
+	border: 1px solid #24CE7B;
+}
+
+/*Full Width Block
+------------------------------------*/
+.full-w-block {
+	padding: 30px 0;
+	background: #24CE7B;
+}
+
+.full-w-block .info-blocks i,
+.full-w-block .info-blocks-in h3 {
+	color: #fff;
+}
+
+.full-w-block .info-blocks-in p {
+	color: #F9F9F9;
+}
+
+.full-w-block .info-blocks:hover i.icon-info-blocks {
+	color: #fff;
+}
+
+/*Timeline v2
+------------------------------------*/
+.timeline {
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+
+/* The line */
+.timeline > li{
+	position: relative;
+}
+
+.timeline:before {
+	top: 0;
+	bottom: 0;
+	left: 22%;
+	width: 4px;
+	content: '';
+	background: #F6F6F6;
+	position: absolute;
+	margin-left: -14px;
+}
+
+/* The date/time */
+.timeline > li .cbp_tmtime {
+	width: 25%;
+	display: block;
+	position: absolute;
+	padding-right: 80px;
+}
+
+.timeline > li .cbp_tmtime span {
+	top: 9px;
+	display: block;
+	text-align: right;
+	position: relative;
+}
+
+.timeline > li .cbp_tmtime span:first-child {
+	color: #999;
+	font-size: 14px;
+	line-height: 0.9;
+}
+
+.timeline > li .cbp_tmtime span:last-child {
+	color: #585f69;
+	font-size: 20px;
+	font-weight: normal;
+
+}
+
+/* Right content */
+.timeline > li .cbp_tmlabel {
+	/*color: #fff;*/
+	padding: 10px 20px 20px;
+	background: #F6F6F6;
+	line-height: 1.4;
+	clear: both;
+	position: relative;
+	/*border-radius: 5px;*/
+	margin: 0 0 40px 25%;
+}
+
+.timeline > li .cbp_tmlabel li {
+	padding: 0;
+}
+
+.timeline > li .cbp_tmlabel h2 { 
+	margin-top: 0px;
+	font-size: 21px;
+	padding: 0 0 5px;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	border-bottom: 1px solid #ddd;
+}
+
+.timeline > li .cbp_tmlabel .text-left {
+	float: left;
+}
+
+/* The triangle */
+.timeline > li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #F6F6F6;
+	border-width: 10px;
+	top: 18px;
+}
+
+/* The icons */
+.timeline > li .cbp_tmicon {
+	top: 22px;
+	left: 22%;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background: #72c02c;
+	margin: 0 0 0 -17px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px #F6F6F6;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 65.375em) {
+
+	.timeline > li .cbp_tmtime span:last-child {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 47.2em) {
+	.timeline:before {
+		display: none;
+	}
+
+	.timeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.timeline > li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.timeline > li .cbp_tmlabel {
+		padding: 1em;
+		font-weight: 400;
+		margin: 0 0 30px 0;
+	}
+
+	.timeline > li .cbp_tmlabel:after {
+		left: 20px;
+		top: -20px;
+		right: auto;
+		border-bottom-color: #F6F6F6;
+		border-right-color: transparent;
+	}
+
+	.timeline > li .cbp_tmicon {
+		left: auto;
+		float: right;
+		position: relative;
+		margin: -55px 5px 0 0px;
+	}	
+}
+
+/*timeline within tab issue issue fix*/
+.timeline > li .cbp_tmlabel.equal-height-column {
+    height: auto !important;
+}
+
+/* The icons */
+.timeline > li .cbp_tmicon {
+	top: 22px;
+	left: 22%;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background: #72c02c;
+	margin: 0 0 0 -17px;
+	box-shadow: 0 0 0 4px #F6F6F6;
+	-webkit-font-smoothing: antialiased;
+}
+.social-contacts {
+	padding-top: 20px;
+}
+.social-contacts li{
+	float: left;
+}
+.social-contacts li i {
+	color: #fff;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	margin-right: 7px;
+	text-align: center;
+	display: inline-block;
+}
+
+.social-contacts li i.sina {
+	background: #159ceb;
+}
+.social-contacts li i.fb {
+	background: #4862a3;
+}
+.social-contacts li i.sk {
+	background: #00aceb;
+}
+.social-contacts li i.gp {
+	background: #dc4a38;
+}
+.social-contacts li i.email {
+	background: #c6574b;
+}
+
+
+.our-team {
+	background: white;
+}
+.team-avater {
+	max-width: 192px;
+}
+/*Parallax Team*/
+.parallax-team {
+	padding: 20px 0;
+  background: url(/resources/site/img/faces.jpg) 50% 0 repeat fixed;
+}
+
+.parallax-team,
+.parallax-team .title-box {
+  position: relative;
+}
+
+.parallax-team-dark:before {
+  background: rgba(0,0,0,0.8);
+}
+
+/*Team
+------------------------------------*/
+.team {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.team img {
+  width: 100%;
+}
+
+.team .inner-team {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.team .inner-team h3 {
+  margin: 0;
+}
+
+.team .inner-team small {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.team .inner-team p {
+  font-size: 13px;
+}
+
+.team .inner-team hr {
+  margin: 10px 0 15px;
+}
+
+/*Team-Social (Temporary)*/
+.team-social {
+  margin-bottom: 0;
+}
+
+.team-social li {
+  padding: 0 2px;
+}
+
+.team-social li a {
+  font-size: 14px;
+  padding: 6px 6px;
+  text-align: center;
+}
+
+.team-social li i {
+  min-width: 20px;
+}
+
+.team-social li a.fb {
+  color: #4862a3;
+  border: 1px solid #4862a3;
+}
+
+.team-social li a.tw {
+  color: #159ceb;
+  border: 1px solid #159ceb;
+}
+
+.team-social li a.gp {
+  color: #dc4a38;
+  border: 1px solid #dc4a38;
+}
+.team-social li a.email {
+  color: #555555;
+  border: 1px solid #555555;
+}
+
+.team-social li a:hover {
+  text-decoration: none;
+}
+
+.team-social li a.fb:hover {
+  color: #fff;
+  background: #4862a3;
+}
+
+.team-social li a.tw:hover {
+  color: #fff;
+  background: #159ceb;
+}
+
+.team-social li a.gp:hover {
+  color: #fff;
+  background: #dc4a38;
+}
+.team-social li a.email:hover {
+  color: #fff;
+  background: #555555;
+}

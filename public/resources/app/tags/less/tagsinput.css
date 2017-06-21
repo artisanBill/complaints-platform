@@ -1,0 +1,139 @@
+.bootstrap-tagsinput {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 0.375rem 0.75rem;
+  text-align: left;
+  font-size: 0;
+}
+.bootstrap-tagsinput .tag {
+  color: #ffffff;
+  border-radius: 3px;
+  background-color: #818a91;
+  font-size: 13px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  overflow: hidden;
+  margin: 1px 5px 1px 0;
+  line-height: 15px;
+  height: 27px;
+  padding: 6px 21px;
+  transition: .25s linear;
+}
+.bootstrap-tagsinput .tag > span {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  text-decoration: none;
+  top: 1px;
+  width: 100%;
+  bottom: 0;
+  padding: 0 10px 0 0;
+  z-index: 2;
+  transition: opacity .25s linear;
+  filter: alpha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+}
+.bootstrap-tagsinput .tag > span:after {
+  content: "\f00d";
+  line-height: 27px;
+  font-family: "FontAwesome";
+}
+.bootstrap-tagsinput .tag:hover {
+  color: #ffffff;
+  background-color: #687077;
+  padding-right: 28px;
+  padding-left: 14px;
+}
+.bootstrap-tagsinput .tag:hover > span {
+  opacity: 1;
+  filter: none;
+}
+.bootstrap-tagsinput input[type="text"] {
+  font-size: 14px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  width: auto !important;
+  max-width: inherit;
+  min-width: 80px;
+  vertical-align: top;
+  height: 29px;
+  color: #2c2c2c;
+}
+.bootstrap-tagsinput input[type="text"]:first-child {
+  height: 23px;
+  margin: 3px 0 3px;
+}
+.tags_clear {
+  clear: both;
+  width: 100%;
+  height: 0;
+}
+.not_valid {
+  background: #fbd8db !important;
+  color: #90111a !important;
+  margin-left: 5px !important;
+}
+.tagsinput-primary {
+  margin-bottom: 18px;
+}
+.tagsinput-primary .bootstrap-tagsinput {
+  border-color: #61259e;
+  margin-bottom: 0;
+}
+.tagsinput-primary .tag {
+  background-color: #61259e;
+  color: #ffffff;
+}
+.tagsinput-primary .tag:hover {
+  background-color: #521f86;
+  color: #ffffff;
+}
+.has-danger .bootstrap-tagsinput {
+  border-color: #f6303e;
+}
+.has-success .bootstrap-tagsinput {
+  border-color: #24ce7b;
+}
+.has-warning .bootstrap-tagsinput {
+  border-color: #f69630;
+}
+.has-info .bootstrap-tagsinput {
+  border-color: #38b5e6;
+}
+.bootstrap-tagsinput .twitter-typeahead {
+  width: auto;
+  vertical-align: top;
+}
+.bootstrap-tagsinput .twitter-typeahead .tt-input {
+  min-width: 200px;
+}
+.bootstrap-tagsinput .twitter-typeahead .tt-dropdown-menu {
+  width: auto;
+  min-width: 120px;
+  margin-top: 11px;
+}
+.has-danger .bootstrap-tagsinput {
+  border-color: #f6303e;
+}
+.has-success .bootstrap-tagsinput {
+  border-color: #24ce7b;
+}
+.has-warning .bootstrap-tagsinput {
+  border-color: #f69630;
+}
+.has-info .bootstrap-tagsinput {
+  border-color: #38b5e6;
+}

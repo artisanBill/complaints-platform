@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: http://itousu.net/sitemap/xml

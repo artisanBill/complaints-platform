@@ -1,0 +1,41 @@
+.editor-field_type .editor {
+  position: relative;
+}
+.editor-field_type .editor > a {
+  top: 15px;
+  right: 15px;
+  opacity: 0.5;
+  z-index: 100;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 16px;
+  position: absolute;
+}
+.editor-field_type .editor > a:hover {
+  opacity: 1;
+}
+.editor-field_type.fullscreen {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1150;
+  position: fixed;
+}
+.editor-field_type.fullscreen > label,
+.editor-field_type.fullscreen > p {
+  display: none;
+}
+.has-danger .ace_editor {
+  border: 1px solid #f6303e;
+}
+.has-success .ace_editor {
+  border: 1px solid #24ce7b;
+}
+.has-warning .ace_editor {
+  border: 1px solid #f69630;
+}
+.has-info .ace_editor {
+  border: 1px solid #38b5e6;
+}
